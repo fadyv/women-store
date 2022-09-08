@@ -1,0 +1,292 @@
+
+
+.slideshow-1{
+    background-image: url(images/slider-bg-1.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slideshow-2{
+    background-image: url(images/slider-bg-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.slideshow-3{
+    background-image: url(images/slider-bg-3.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.slideshow-4{
+    background-image: url(images/slider-bg-4.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel-control-prev{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+   
+}
+
+.carousel-control-next{
+    width: 40px;
+    height: 40px;
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+   
+}
+
+.carousel-control-next {
+    margin-right: 20px;
+    top: 50% !important;
+  }
+
+
+.carousel-control-next, .carousel-control-prev{
+    margin-left:  20px;
+    top: 50%;
+}
+
+.carousel-control-prev:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.carousel-control-next:hover {
+    background-color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+#home h2{
+    font-size: 60px;
+}
+
+.btn1 , .btn2, .btn3, .btn4{
+    transition: 0.5s;
+    border-radius: 0;
+    font-size: small;
+}
+
+
+.btn1:hover {
+    background-color: white;
+    color: black !important;
+    transition: 0.5s;
+}
+
+.btn2:hover {
+    background-color: rgb(255, 64, 64);
+    color: white !important;
+    transition: 0.5s;
+    border: none !important;
+}
+
+.btn3:hover {
+    background-color:transparent !important;
+    transition: 0.5s;
+    border: black 1px solid;
+}
+
+.btn4:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s;
+    border: none !important;
+}
+
+
+
+/* _______________________________________________product  section______________________________________________________ */
+
+.icons{
+    top:40%;
+    transition: 0.5s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.bg-pink{
+    background: #aa0e6e; 
+    background: -webkit-linear-gradient(to right, #e6b3d9, #ff058f);  
+    background: linear-gradient(to right, #ff0095, #ff0000); 
+        
+}
+
+.text-pink{
+    color: #f5279f;
+}
+
+#product .singleProduct:hover .icons{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.nav-pills .nav-link.active{
+    background: #ff026b; 
+    background: -webkit-linear-gradient(to right, #ff4070, #ff5da0);  
+    background: linear-gradient(to right, #ff179e, #fcdada); 
+}
+
+
+
+.textProduct p,h4{
+    transition: 0.5s;
+
+}
+
+.textProduct:hover h4 {
+    color: #f5279f;
+    transition: 0.5s;
+}
+
+.textProduct:hover p {
+    color: black;
+    transition: 0.5s;
+
+}
+
+
+.icons:hover .carousel-control-prev{
+    background-color: transparent !important;
+}
+
+.icons:hover .carousel-control-next{
+    background-color: transparent !important;
+}
+
+.icons .carousel-control-prev{
+    background-color: transparent !important;
+
+}
+
+.icons .carousel-control-next{
+    background-color: transparent !important;
+}
+
+
+.slideshow-5{
+    height: 70vh;
+    background-image: url(images/banner.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+
+
+.icon{
+    opacity: 0;
+    transition: 0.5s;
+    bottom: 55%;
+}
+
+.team:hover .icon {
+    opacity: 1;
+}
+
+.team img{
+    transition:   0.5s  ;
+
+}
+.team:hover img{
+    transform: scale(1.1);
+    transition:   0.5s  ;
+
+}
+
+
+
+
+.owl-theme .owl-dots {
+    
+    text-align: end;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    top: -11%;
+    right: 0%;
+   
+  }
+
+
+
+  .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f5279f;
+    font-size: 30px;
+  }
+
+  .owl-prev, .owl-next{
+    opacity: 0;
+  }
+
+
+
+
+ #fixedBox{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+
+#smallBox{
+
+    height: 60vh;
+    width: 280px;
+    background-size: 100% 100%;
+
+}
+
+#closeBtn{
+    position: absolute;
+    right:10px;
+    top: 10px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
+
+/* two class for position icons (left,right) */
+.a{
+    position: relative;
+    right: 5%;
+}
+
+.aa{
+    position: relative;
+    left: 5%;
+}
+
+/* _______________________________________________summary  section______________________________________________________ */
+
+
+
+
+.text-gray{
+    color: #b0b0b0;
+}
+
+#summary {
+    background-color: black;
+}
+
+#summary a:hover{
+    color: #f5279f;
+}
